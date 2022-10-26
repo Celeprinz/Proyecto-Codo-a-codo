@@ -313,11 +313,18 @@ footer {
 
     }
 
+    #datos {
+        height: 100px;
+    }
+
+
     #datos p{
         font-size: 14px;
+
     }
     #redes {
         width: auto;
+        height: 100px;
     }
     #botonera_footer ul{
         margin-top: 10px;
@@ -330,6 +337,21 @@ footer {
         height: auto;
         width: 40px;
     }
+    .audio{
+        margin-top: none;
+        width: 50%;
+        height: 70px;
+        float: center;
+    }
+    audio{
+        margin-top: none;
+        width: 50%;
+        height: 70px;
+        float: center;
+        margin-left: 25%;
+       
+    }
+    
     
 }  
     
@@ -458,15 +480,16 @@ footer {
     footer {
         width: 88%;
         height: 140px;
+        background-color: black;
     }
     #datos {
         width: 60%;
         height: auto;
-
+        
     }
     #datos p{
         margin-top: 22px;
-        font-size: 14px;
+        font-size: 13px;
     }
     #redes {
         width: 40%;
@@ -479,7 +502,7 @@ footer {
     #botonera_footer ul li {
         display: inline-block;
         padding: 10px;
-        float: right;
+        float: none;
     }
     #botonera_footer ul img {
         height: auto;
