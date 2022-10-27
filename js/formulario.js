@@ -7,23 +7,48 @@ function validateForm() {
     let e = document.forms["form"]["correo"].value;
 
     if (a === "") {
-      alert("Debe completar su nombre.");
+      Swal.fire({
+        title: 'Error!',
+        text: 'Debe completar su nombre',
+        icon: 'warning',
+        confirmButtonText: 'OK'
+      });
       return false;
     } 
     if (b === "") {
-      alert("Debe completar su apellido.");
+      Swal.fire({
+        title: 'Error!',
+        text: 'Debe completar su apellido',
+        icon: 'warning',
+        confirmButtonText: 'OK'
+      });;
       return false;
     } 
     if (c === "") {
-      alert("Debe completar su DNI.");
+      Swal.fire({
+        title: 'Error!',
+        text: 'Debe completar su DNI',
+        icon: 'warning',
+        confirmButtonText: 'OK'
+      });;
       return false;
     } 
     if (d === "") {
-      alert("Debe completar su fecha de nacimiento.");
+      Swal.fire({
+        title: 'Error!',
+        text: 'Debe completar su fecha de nacimiento',
+        icon: 'warning',
+        confirmButtonText: 'OK'
+      });
       return false;
     } 
     if (e === "") {
-      alert("Debe completar su correo electrónico.");
+      Swal.fire({
+        title: 'Error!',
+        text: 'Debe completar su correo electronico',
+        icon: 'warning',
+        confirmButtonText: 'OK'
+      });
       return false;
     } 
 
@@ -31,7 +56,12 @@ function validateForm() {
       else {
         let x = document.forms["form"]["cv"].value; 
         if (x === "") {
-          alert("No olvide adjuntar su CV");
+          Swal.fire({
+            title: 'Error!',
+            text: 'No olvide completar su CV',
+            icon: 'warning',
+            confirmButtonText: 'OK'
+          });
           return false;
         }
       }
