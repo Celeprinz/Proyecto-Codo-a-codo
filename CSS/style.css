@@ -501,12 +501,12 @@ footer {
      }
     #botonera_footer ul li {
         display: inline-block;
-        padding: 10px;
+        padding: 6px;
         float: none;
     }
     #botonera_footer ul img {
         height: auto;
-        width: 37px;
+        width: 30px;
     }
 
     .audio{
